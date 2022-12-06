@@ -1,0 +1,183 @@
+@import "reset.scss"
+@import "normalize.scss"
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap')
+$dark-bg: #1F2937
+$white: #F9FAF8
+$light-grey: #E5E7EB
+$blue: #3882F6
+
+*
+    box-sizing: border-box
+
+html
+    font-family: 'Roboto', sans-serif
+    font-weight: 400
+    font-size: 18px
+
+.container
+    max-width: 1140px
+    margin: 0 auto
+    position: relative
+
+.main-section
+    position: relative
+    background-color: $dark-bg
+    min-height: 650px
+    padding-top: 20px
+    overflow: hidden
+    color: $white
+    &__nav-container
+        display: flex
+        height: 69px
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 40px
+    &__logo
+        width: 134px
+    &__content-container
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 40px
+        &:last-child
+            margin-right: 0px
+        font-size: 20px
+    a
+        text-decoration: none
+        color: $white
+        &:hover
+            color: $blue
+
+.btn
+    border: none
+    border-radius: 16px
+    padding: 15px 30px
+    min-height: 64px
+    font-weight: 900
+    font-size: 20px
+    &:hover
+        filter: brightness(110%)
+        cursor: pointer
+        transform: scale(1.03)
+
+.left-wrapper
+    max-width: 450px
+    &__title
+        font-size: 60px
+        font-weight: 900
+        margin: 0
+        margin-bottom: 10px
+    &__text
+        margin-bottom: 30px
+        line-height: 30px
+    &__btn
+        background-color: $blue
+        color: $white
+
+.right-wrapper
+    &__image
+        width: 450px
+        height: auto
+        &:hover
+            transform: scale(1.03)
+
+.second-section
+    background-color: $white
+    padding-top: 50px
+    padding-bottom: 100px
+    position: relative
+    &__container
+    &__title
+        text-align: center
+        font-weight: 900
+        font-size: 36px
+        color: $dark-bg
+        margin-bottom: 60px
+    &__cards-box
+        display: flex
+        justify-content: space-between
+    &__cards-item
+
+.cards-item
+    max-width: 240px
+    color: $dark-bg
+    text-align: center
+    &__img
+        width: 150px
+        height: auto
+        margin-bottom: 40px
+        &:hover
+            filter: brightness(90%)
+            transform: scale(1.05)
+    &__title
+        font-size: 20px
+        margin-bottom: 10px
+        &:hover
+            color: $blue
+    &__description
+        line-height: 20px
+        &:hover
+            color: $blue
+    &:hover
+        cursor: pointer
+
+.third-section
+    background-color: $light-grey
+    color: $dark-bg
+    padding-top: 80px
+    padding-bottom: 80px
+    &__container
+    &__quote-figure
+        max-width: 800px
+        margin: 0 auto
+
+.quote-figure
+    font-weight: 400
+    line-height: 35px
+    &__text
+        font-style: italic
+        font-size: 30px
+        margin-bottom: 20px
+    &__caption
+        text-align: end
+        font-size: 25px
+
+.fourth-section
+    background-color: $white
+    position: relative
+    padding-top: 100px
+    padding-bottom: 100px
+    &__container
+    &__cta-box
+        height: 150px
+        color: $white
+
+.cta-box
+    background-color: $blue
+    border-radius: 16px
+    display: flex
+    justify-content: space-around
+    align-items: center
+    &__title
+        font-size: 26px
+        margin-bottom: 15px 
+    &__btn
+        background-color: transparent
+        border: 2px solid $white
+        color: $white
+        
+.footer
+    background-color: $dark-bg
+    padding-top: 40px
+    padding-bottom: 40px
+    color: $white
+    &__text
+        text-align: center
+
