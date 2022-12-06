@@ -1,1 +1,1 @@
-# odin_landing-page
+This is a landing page that I've created as an assignment for The Odin Project.
