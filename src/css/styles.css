@@ -933,77 +933,82 @@ html {
   .container {
     width: 90%;
   }
-  /* line 317, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 316, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  .main-section {
+    min-height: auto;
+    padding-bottom: 30px;
+  }
+  /* line 319, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .main-section__logo {
     width: 100px;
   }
-  /* line 320, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 322, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .left-wrapper__title {
     font-size: 44px;
   }
-  /* line 322, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 324, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .left-wrapper__text {
     font-size: 18px;
   }
-  /* line 324, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 326, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .right-wrapper__image {
     width: 255px;
   }
-  /* line 326, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 328, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .second-section {
     padding-top: 30px;
   }
-  /* line 328, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 330, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .second-section__title {
     font-size: 28px;
   }
-  /* line 330, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 332, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .cards-item {
     margin-bottom: 30px;
   }
-  /* line 332, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 334, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .cards-item__img {
     width: 150px;
   }
-  /* line 334, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 336, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .cards-item__title {
     font-size: 22px;
     margin-bottom: 5px;
   }
-  /* line 337, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 339, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .cards-item__description {
     font-size: 18px;
   }
-  /* line 339, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 341, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .third-section {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  /* line 342, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 344, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .quote-figure {
     width: 80%;
   }
-  /* line 344, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 346, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .quote-figure__text {
     font-size: 20px;
   }
-  /* line 346, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 348, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .quote-figure__caption {
     font-size: 18px;
   }
-  /* line 349, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 351, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .cta-box__text-box {
     width: 200px;
   }
-  /* line 351, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 353, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .cta-box__title {
     font-size: 20px;
   }
-  /* line 353, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 355, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .cta-box__text {
     font-size: 16px;
   }
-  /* line 355, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
+  /* line 357, ../../../../../Users/dianadiaz/repos/odin_landing-page/src/sass/styles.sass */
   .footer__text {
     font-size: 14px;
   }
